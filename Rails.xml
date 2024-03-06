@@ -1,0 +1,24 @@
+<templateSet group="Rails">
+  <template name="if" value="&lt;% if $CONDITION$ %&gt;&#10;    $END$&#10;&lt;% end %&gt;" description="&lt;% if %&gt;&lt;% end %&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="&lt;% if $CONDITION$ %&gt;&#10;    $END$&#10;&lt;% else %&gt;    &#10;&lt;% end %&gt;" description="&lt;% if %&gt;&lt;% else %&gt;&lt;% end %&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+  <template name="=" value="&lt;%= $END$ %&gt;" description="&lt;%= %&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+  <template name="r" value="&lt;% $END$ %&gt;" description="&lt;%  %&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+</templateSet>
